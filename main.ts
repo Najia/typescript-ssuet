@@ -1,5 +1,5 @@
 var obj = {name : "jia", age:25};
-obj = {name : "teh",  name1 : "Tehmina", age:25};
+obj = {name : "teh",  name1 : "Teh", age:25};
 obj["class"] = 23;
 
 var obj2:any ={name : "lil", age: 23};
@@ -10,7 +10,7 @@ obj = <any> {} /// this <any> allows you to overwrite the mandatory requirements
 
 var a = {};
 
-// where as if we specify the data tyoe while creating a null object it wont let us enter anything 
+// where as if we specify the data type while creating a null object it wont let us enter anything 
 
 var b : number =  {}; // isnt alowed  number type blank object 
 
@@ -19,7 +19,7 @@ var base = number {};  // not allowed in ts
 var b1: any = {name : "bill"};
 
 
-// number type arrat 
+// number type array
 
 
 var numarray : number[] = [1,2,3]; 
